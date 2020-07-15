@@ -1,0 +1,31 @@
+
+<html>
+<head>
+    <title> Assignment </title>
+    <link rel="stylesheet" type="text/css" href="style.css">  
+	<script src="validation.js"></script>
+</head>
+    
+    <div class="RegisterPage">
+    <img src="avatar.jpg" class="avatar">
+    <h1>Register  Here</h1>
+    <body>
+    <form action="Register" name="form" method="post" onsubmit="return validation()">
+
+            <input type="text" name="uname" placeholder="Username">
+                
+            <input type="password" name="upass" placeholder="Password">
+            	
+ 	<div class="dropdown">          
+	<select name="type">
+    	<option disabled selected>Select Your Type</option>
+    	<option value="A">A</option>
+    	<option value="B">B</option>
+    	<option value="C">C</option>
+	</select>            
+    </div>
+	    <input type="submit" name="submit" value="Register">
+    </div>
+    </form>
+    </body>
+</html>
